@@ -45,3 +45,29 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 - Started answering the questions on our case study by creating the pivot tables as requested
 
 - Created another sheet for Dashboard
+
+![image](https://github.com/user-attachments/assets/c8d1b0f7-6841-4c73-b410-d72ece6938bb)
+### Result Findings
+1. Category by Average of Discount Percentage
+This chart shows the average discount percentage across different product categories.
+Home Improvement has the highest average discount at 58%, followed by Computers & Accessories (54%), Health & Personal Care (53%), and Electronics (50%), Office Products (12%) and Toys & Games (0%) have the lowest or no discounts.
+The discount level varies significantly, which may affect consumer purchase behavior — higher discounts often drive more attention.
+
+2. Category by Product Name 
+This chart shows the number of products listed under each category
+Computers & Accessories and Home & Kitchen have the highest product counts (511 and 448 respectively).
+Categories like Car & Motorbike and Toys & Games only have 1 product each.
+This tells us which categories are most represented in the dataset — likely areas where Amazon has a broader inventory or focus.
+
+3. Category by Average Actual Price and Discounted Price (Right Chart)
+This line chart compares the average actual price vs. the discounted price per category.
+Electronics stand out with a sharp peak — high average actual price and significant discount.
+Other categories like Musical Instruments and Health & Personal Care also show notable price differences.
+Toys & Games and Office Products show almost no difference — likely due to low or no discounts, as shown earlier.
+The gap between actual and discounted prices reflects how much customers are saving — useful for pricing strategies.
+
+4. Category by Sum of Rating Count
+This chart shows the rating count across different product categories.
+Home Improvement has the highest average discount at 58%, followed by Computers & Accessories (54%), Health & Personal Care (53%), and Electronics (50%), Office Products (12%) and Toys & Games (0%) have the lowest or no discounts.
+The discount level varies significantly, which may affect consumer purchase behavior — higher discounts often drive more attention.
+
