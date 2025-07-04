@@ -1,7 +1,7 @@
 # DSA---Amazon-Case-Study
 ### This is where i started my Portfolio building while taking my Data Analysis Class with the Incubator Hub during Digital Skill up Africa
-# Project Topic: Amazon Product Review Analysis
-Project Overview :You are working as a Junior Data Analyst at RetailTech Insights, a company that provides e-commerce analytics solutions to sellers on platforms like Amazon. Your team has been tasked with analysing product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement.
+### Project Topic: Amazon Product Review Analysis
+Project Overview :This Data Analysis aims to analyze product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement.
 Opened the original dataset on Microsoft Excel
 
 Turned my dataset to table to enable me work on it using Ctrl+T
