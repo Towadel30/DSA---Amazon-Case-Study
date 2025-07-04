@@ -6,8 +6,25 @@ Project Overview :This Data Analysis aims to analyze product and customer review
 DSA Data Analysis Capstone Project 
 ### Tools Used
 Ms Excel for Data Cleaning and Exploratory Data Analysis (EDA) 
-- Opened the original dataset on Microsoft Excel
+- Opened the original dataset on Microsoft Excel [Download here](https://www.microsoft.com/en-gb/microsoft-365/excel)
 
+### Data Cleaning and Preparation
+- Data loading and Inspection
+- Handling missing variables
+- Data Cleaning and formating
+
+### Exploratory Data Analysis
+The dataset contains information scraped from Amazon product pages, including: 
+•       Product details: name, category, price, discount, and ratings 
+•       Customer engagement: user reviews, titles, and content 
+•       Each row represents a unique product, with aggregated reviewer data 
+stored as comma-separated values 
+Total 
+Records: 
+1,465 
+TotalFields: 16 columns
+
+### Data Analysis
 - Turned my dataset to table to enable me work on it using Ctrl+T
 
 - Started cleaning by first using delimeter to get my main category and delete the splitted columns and irrelevant columns too
