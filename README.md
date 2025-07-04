@@ -1,5 +1,5 @@
 # DSA---Amazon-Case-Study
-### This is where i started my Portfolio building while taking my Data Analysis Class with the Incubator Hub during Digital Skill up Africa
+### This is where I started my portfolio building while taking my data analysis Class with the Incubator Hub during Digital Skill up Africa
 ### Project Topic: Amazon Product Review Analysis
 Project Overview :This Data Analysis aims to analyze product and customer review data to generate insights that can guide product improvement, marketing strategies, and customer engagement.
 ### Data Source 
@@ -67,7 +67,17 @@ Toys & Games and Office Products show almost no difference — likely due to low
 The gap between actual and discounted prices reflects how much customers are saving — useful for pricing strategies.
 
 4. Category by Sum of Rating Count
-This chart shows the rating count across different product categories.
-Home Improvement has the highest average discount at 58%, followed by Computers & Accessories (54%), Health & Personal Care (53%), and Electronics (50%), Office Products (12%) and Toys & Games (0%) have the lowest or no discounts.
-The discount level varies significantly, which may affect consumer purchase behavior — higher discounts often drive more attention.
+This chart shows the rating across different category and the higest is Electronics with 15,595,997
 
+5. Category by Sum of Revenue
+This chart shows the revenue across different category and the higest is Electronics with 96,936,506,025
+
+6. Discount Bucket by Average Rating
+This chart shows the average rating of the discount bucket and the higest 4.2 are within 0-10%, 21-30% and 91-100%
+
+7. Price Bucket by Sum of Product Name
+This chart shows the price bucket by sum of product name, ₹200	is 169, ₹200–₹500	is 351 while
+₹500	is 869 
+  
+8. Category by Maximum of Discount Percentage
+This chart shows the maximum discount percentage across different category and the higest is Computer Accesssories with 94%
