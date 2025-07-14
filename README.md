@@ -46,7 +46,8 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 - Created another sheet for Dashboard
 
-![Uploading image.png…]()
+<img width="2013" height="2755" alt="image" src="https://github.com/user-attachments/assets/3052d955-57c1-4f61-b012-6a1afce153bb" />
+
 
 ### Result Findings
 1. Category by Average of Discount Percentage
