@@ -12,6 +12,7 @@ Ms Excel for Data Cleaning and Exploratory Data Analysis (EDA)
 - Data loading and Inspection
 - Handling missing variables
 - Data Cleaning and formating
+- Visualization and Dashboard Design
 
 ### Exploratory Data Analysis
 The dataset contains information scraped from Amazon product pages, including: 
@@ -50,36 +51,151 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 
 ### Result Findings
-1. Category by Average of Discount Percentage
-This chart shows the average discount percentage across different product categories.
-Home Improvement has the highest average discount at 58%, followed by Computers & Accessories (54%), Health & Personal Care (53%), and Electronics (50%), Office Products (12%) and Toys & Games (0%) have the lowest or no discounts.
-The discount level varies significantly, which may affect consumer purchase behavior — higher discounts often drive more attention.
+ **Dashboard Interpretation**
 
-2. Category by Product Name 
-This chart shows the number of products listed under each category
-Computers & Accessories and Home & Kitchen have the highest product counts (511 and 448 respectively).
-Categories like Car & Motorbike and Toys & Games only have 1 product each.
-This tells us which categories are most represented in the dataset — likely areas where Amazon has a broader inventory or focus.
+###  1. **Category by Average of Discount Percentage**
 
-3. Category by Average Actual Price and Discounted Price (Right Chart)
-This line chart compares the average actual price vs. the discounted price per category.
-Electronics stand out with a sharp peak — high average actual price and significant discount.
-Other categories like Musical Instruments and Health & Personal Care also show notable price differences.
-Toys & Games and Office Products show almost no difference — likely due to low or no discounts, as shown earlier.
-The gap between actual and discounted prices reflects how much customers are saving — useful for pricing strategies.
+> **What it shows:** The average discount % for each product category.
 
-4. Category by Sum of Rating Count
-This chart shows the rating across different category and the higest is Electronics with 15,595,997
+| Category                | Avg. Discount |
+| ----------------------- | ------------- |
+| Home Improvement        | 58%           |
+| Computers & Accessories | 54%           |
+| Health & Personal Care  | 53%           |
+| Musical Instruments     | 46%           |
+| Car & Motorbike         | 42%           |
+| Home & Kitchen          | 40%           |
+| Office Products         | 12%           |
+| Toys & Games            | 0%            |
 
-5. Category by Sum of Revenue
-This chart shows the revenue across different category and the higest is Electronics with 96,936,506,025
+ **Interpretation:**
 
-6. Discount Bucket by Average Rating
-This chart shows the average rating of the discount bucket and the higest 4.2 are within 0-10%, 21-30% and 91-100%
+* **Home Improvement** and **Computers & Accessories** give the highest average discounts, which may be used to boost sales or offload inventory.
+* **Office Products** and **Toys & Games** have very low or no discounts, possibly due to low competition or limited data.
 
-7. Price Bucket by Sum of Product Name
-This chart shows the price bucket by sum of product name, ₹200	is 169, ₹200–₹500	is 351 while
-₹500	is 869 
-  
-8. Category by Maximum of Discount Percentage
-This chart shows the maximum discount percentage across different category and the higest is Computer Accesssories with 94%
+###  2. **Category by Product Name (Count of Products)**
+
+> **What it shows:** How many products are listed under each category.
+
+ **Interpretation:**
+
+* **Electronics, Home & Kitchen, and Computers & Accessories** have the **highest number of products**, indicating they’re popular selling categories.
+* Very few products exist in **Car & Motorbike**, **Toys & Games**, and **Home Improvement**, showing limited variety or focus.
+
+###  3. **Category by Sum of Rating Count**
+
+> **What it shows:** The total number of reviews per category (sum of user ratings).
+
+ **Interpretation:**
+
+* **Electronics** alone has over **15 million ratings**, indicating extremely high customer engagement and sales volume.
+* **Home & Kitchen** and **Computers & Accessories** also have millions of ratings.
+* Low-review categories (e.g. **Car & Motorbike**, **Toys & Games**) might not be high-volume or have just a few popular items.
+
+###  4. **Product Name by Rating**
+
+> **Top 5 highest-rated products:**
+
+* REDTECH USB-C Cable – ★5.0
+* Amazon Basics Mouse – ★5.0
+* Syncwire Cable – ★5.0
+* Swiffer Water Heater Faucet – ★4.8
+* Instant Pot Air Fryer – ★4.8
+
+ **Interpretation:**
+
+* These are the **best-rated products**, possibly because of excellent quality or performance.
+* Great for case studies or marketing highlights.
+
+###  5. **Category by Average Actual Price and Discounted Price**
+
+> **Line chart comparing original and discounted prices per category.**
+
+ **Interpretation:**
+
+* **Electronics** and **Home & Kitchen** are the most expensive, even after discounts.
+* **Toys & Games** and **Office Products** are the cheapest, with minimal price drops.
+
+ **Business takeaway:** High-priced categories are being discounted, which may signal fierce competition or customer sensitivity to price.
+
+###  6. **Reviewed Products**
+
+> Top 5 products by **number of reviews**:
+
+* AmazonBasics HDMI Cable – **426,973**
+* boAt Bassheads Earphones – **363,713**
+
+ **Interpretation:**
+
+* These are **best-selling or most widely used** products.
+* High review counts mean high consumer trust, reach, and feedback — great for promoting as flagship items.
+
+###  7. **Category by Revenue**
+
+> Shows **total revenue = actual price × review count**.
+
+ **Interpretation:**
+
+* **Electronics** brings in the **highest revenue (₦91B+)**, dominating the market.
+* **Computers & Accessories** and **Home & Kitchen** follow.
+* **Toys & Games** and **Car & Motorbike** generate the **least revenue**.
+
+ **Business insight:** Electronics should be a focus area for promotions and restocking.
+
+
+###  8. **Price Bucket by Product Name**
+
+> Pie chart of price categories:
+
+* Majority of products are **above ₹500**
+* Some are in ₹200–₹500 range
+* Few are under ₹200
+
+ **Interpretation:**
+
+* Amazon sells mostly **mid- to high-priced** products.
+* Could suggest higher margins and better quality perception.
+
+###  9. **Discount Bucket by Average Rating**
+
+> Compares **discount levels vs average rating**.
+
+ **Interpretation:**
+
+* Products with **lower discounts (0–10%)** have **higher ratings (\~4.3)**
+* Products with **50%+ discounts** show **lower ratings (below 4.0)**
+
+ **Conclusion:** Deep discounts may harm perceived quality, or poor-performing products are being discounted heavily.
+
+
+###  10. **Category by Maximum Discount Percentage**
+
+> Shows the **highest single discount** in each category.
+
+| Highest Discounts:            |
+| ----------------------------- |
+| Computers & Accessories – 94% |
+| Electronics – 91%             |
+| Home & Kitchen – 90%          |
+| Office Products – 75%         |
+
+ **Interpretation:** These deep cuts may be used for clearance or promotions.
+
+
+###  11. **Product Name by Rating and Review Count**
+
+> Bar chart showing both **rating** and **review count** for top products.
+
+ **Interpretation:**
+
+* AmazonBasics HDMI and boAt Bassheads have **both high ratings and high reviews**, making them excellent performers.
+* Products with high ratings but **low reviews** may be newer or niche.
+
+
+##  SUMMARY
+
+> This dashboard presents a comprehensive analysis of Amazon product performance using metrics like **discounts, ratings, reviews, price ranges, and revenue**.
+
+> * Electronics dominate in **volume, reviews, and revenue**
+> * Top-rated products include REDTECH, Syncwire, and Amazon Basics accessories
+> * Higher discounts often correlate with **lower ratings**
