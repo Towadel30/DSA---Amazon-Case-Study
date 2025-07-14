@@ -46,7 +46,8 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 - Created another sheet for Dashboard
 
-![image](https://github.com/user-attachments/assets/c8d1b0f7-6841-4c73-b410-d72ece6938bb)
+![Uploading image.png…]()
+
 ### Result Findings
 1. Category by Average of Discount Percentage
 This chart shows the average discount percentage across different product categories.
