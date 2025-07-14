@@ -55,7 +55,7 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 ###  1. **Category by Average of Discount Percentage**
 
-> **What it shows:** The average discount % for each product category.
+What it shows: The average discount % for each product category.
 
 | Category                | Avg. Discount |
 | ----------------------- | ------------- |
@@ -75,7 +75,7 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 ###  2. **Category by Product Name (Count of Products)**
 
-> **What it shows:** How many products are listed under each category.
+What it shows: How many products are listed under each category.
 
  **Interpretation:**
 
@@ -84,7 +84,7 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 ###  3. **Category by Sum of Rating Count**
 
-> **What it shows:** The total number of reviews per category (sum of user ratings).
+What it shows: The total number of reviews per category (sum of user ratings).
 
  **Interpretation:**
 
@@ -132,7 +132,7 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 ###  7. **Category by Revenue**
 
-> Shows **total revenue = actual price × review count**.
+Shows **total revenue = actual price × review count**.
 
  **Interpretation:**
 
@@ -170,7 +170,7 @@ Percentage<=40%,"31-40%",IF(Discounted Percentage<=50%,"41-50%",IF(Discounted Pe
 
 ###  10. **Category by Maximum Discount Percentage**
 
-> Shows the **highest single discount** in each category.
+Shows the **highest single discount** in each category.
 
 | Highest Discounts:            |
 | ----------------------------- |
