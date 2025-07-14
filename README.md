@@ -94,7 +94,7 @@ What it shows: The total number of reviews per category (sum of user ratings).
 
 ###  4. **Product Name by Rating**
 
-> **Top 5 highest-rated products:**
+ **Top 5 highest-rated products:**
 
 * REDTECH USB-C Cable – ★5.0
 * Amazon Basics Mouse – ★5.0
@@ -109,7 +109,7 @@ What it shows: The total number of reviews per category (sum of user ratings).
 
 ###  5. **Category by Average Actual Price and Discounted Price**
 
-> **Line chart comparing original and discounted prices per category.**
+ **Line chart comparing original and discounted prices per category.**
 
  **Interpretation:**
 
@@ -120,7 +120,7 @@ What it shows: The total number of reviews per category (sum of user ratings).
 
 ###  6. **Reviewed Products**
 
-> Top 5 products by **number of reviews**:
+ Top 5 products by **number of reviews**:
 
 * AmazonBasics HDMI Cable – **426,973**
 * boAt Bassheads Earphones – **363,713**
@@ -145,7 +145,7 @@ Shows **total revenue = actual price × review count**.
 
 ###  8. **Price Bucket by Product Name**
 
-> Pie chart of price categories:
+ Pie chart of price categories:
 
 * Majority of products are **above ₹500**
 * Some are in ₹200–₹500 range
@@ -158,7 +158,7 @@ Shows **total revenue = actual price × review count**.
 
 ###  9. **Discount Bucket by Average Rating**
 
-> Compares **discount levels vs average rating**.
+ Compares **discount levels vs average rating**.
 
  **Interpretation:**
 
@@ -184,7 +184,7 @@ Shows the **highest single discount** in each category.
 
 ###  11. **Product Name by Rating and Review Count**
 
-> Bar chart showing both **rating** and **review count** for top products.
+ Bar chart showing both **rating** and **review count** for top products.
 
  **Interpretation:**
 
@@ -194,8 +194,8 @@ Shows the **highest single discount** in each category.
 
 ##  SUMMARY
 
-> This dashboard presents a comprehensive analysis of Amazon product performance using metrics like **discounts, ratings, reviews, price ranges, and revenue**.
+ This dashboard presents a comprehensive analysis of Amazon product performance using metrics like **discounts, ratings, reviews, price ranges, and revenue**.
 
-> * Electronics dominate in **volume, reviews, and revenue**
-> * Top-rated products include REDTECH, Syncwire, and Amazon Basics accessories
-> * Higher discounts often correlate with **lower ratings**
+ * Electronics dominate in **volume, reviews, and revenue**
+ * Top-rated products include REDTECH, Syncwire, and Amazon Basics accessories
+ * Higher discounts often correlate with **lower ratings**
